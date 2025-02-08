@@ -160,7 +160,7 @@ h4 {
     font-size: 1.4rem;
 }
 
-.tab-content{
+.tab-content {
     display: flex !important;
     justify-content: space-between;
     gap: 20px !important;
@@ -170,14 +170,36 @@ h4 {
 .special-section {
     padding: 6rem 0;
     background-color: var(--light-bg);
-  }
-  .special-section h2 {
+}
+
+.special-section h2 {
     margin-bottom: 2rem;
-  }
-  
-  .special-card {
+}
+
+.special-card {
     background: white;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    padding: 6rem 0;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info i {
+    color: var(--primary-color);
+    margin-right: 1rem;
+    width: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
   }
