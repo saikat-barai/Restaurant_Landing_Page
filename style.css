@@ -60,18 +60,108 @@ h4 {
     margin-bottom: 1rem;
 }
 
-.hero p{
+.hero p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-.about-section{
+.about-section {
     padding: 5rem 0;
     background-color: var(--light-bg);
 }
 
-.about-image{
+.about-image {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
+}
+
+.menu-section {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.menu-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+.menu-section h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 15px auto;
+}
+
+.nav-tabs {
+    border: none;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    color: var(--secondary-color) !important;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    background: transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary-color) !important;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-color) !important;
+    background: none;
+    border: none;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: white;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.menu-item p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.menu-item .price {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.tab-content{
+    display: flex !important;
+    justify-content: space-between;
+    gap: 20px !important;
 }
