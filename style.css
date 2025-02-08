@@ -165,3 +165,19 @@ h4 {
     justify-content: space-between;
     gap: 20px !important;
 }
+
+/* special section  */
+.special-section {
+    padding: 6rem 0;
+    background-color: var(--light-bg);
+  }
+  .special-section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .special-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
